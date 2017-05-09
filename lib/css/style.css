@@ -1,0 +1,466 @@
+.block{
+ border:1px solid #ddd;
+ border-radius:5px;
+ padding:20px;
+}
+
+section#breadcrumb{
+ padding:20px 10px 0 10px;
+}
+
+section#breadcrumb i{
+ font-family:Helvetica;
+ margin:0 8px;
+ color:#888;
+}
+
+section#category_head > h2{
+ text-align:left;
+ margin:20px 0;
+}
+
+section#category_head > h3{
+ margin:0;
+ font-weight:normal;
+}
+
+section#category_head div#lessons{
+ padding:0 0 20px 0;
+}
+
+section#category_head div#lessons span:before{
+ content:'\b7\a0';
+}
+
+section#category_head div#lessons span:first-child:before{
+ content:none;
+}
+
+section#free_select div#form div.grid:first-child{
+ font-size:20px;
+}
+
+section#free_select div#form input[type="text"]{
+ width:180px;
+}
+
+section#free_select div#form input.input{
+ margin-right:10px;
+}
+
+section#free_select div#form div.grid-12{
+ padding:20px 0 0 0;
+ font-size:15px;
+}
+
+section#content{
+ padding:20px 10px;
+}
+
+section#side{
+ width:28%;
+}
+
+section#side.sleft{
+ margin:0 2% 0 0;
+}
+
+section#side.sright{
+ margin:0 0 0 2%;
+}
+
+section#side div#param{
+ background:#f5f5f5;
+}
+
+section#side div#param h4{
+ margin-bottom:5px;
+ color:#3173a9;
+}
+
+section#side div#param h4:first-child{
+ margin:0 0 5px 0;
+}
+
+section#side div#param label{
+ display:block;
+ margin:5px 0;
+}
+
+section#side div#param input[type="text"]{
+ width:210px;
+}
+
+section#side div#param select{
+ width:226px;
+}
+
+section#side div#param ul{
+ margin-top:20px;
+}
+
+section#side div#param div#toggle_button{
+ margin:-20px;
+ margin-top:20px;
+ padding:10px 20px;
+ background:#ccc;
+ cursor:pointer;
+ font-weight:bold;
+}
+
+section#side div#param div.drop_cont{
+ display:inline;
+ position:relative;
+}
+
+section#side div#param div.drop{
+ position:absolute;
+ background:#fff;
+ border:1px solid #ddd;
+ border-radius:3px;
+ left:0;
+ top:32px;
+ z-index:99999;
+ padding:0;
+ overflow-y:scroll;
+ height:auto;
+ max-height:250px;
+ min-width:224px;
+}
+
+section#side div#param div.drop ul{
+ margin:0;
+}
+
+section#side div#param div.drop li a{
+ display:block;
+ padding:5px 10px;
+}
+
+section#side div#param div.drop li a:hover{
+ background:#eee;
+ text-decoration:none;
+}
+
+section#side h3{
+ margin-bottom:5px;
+}
+
+section#side div#rec_subjects{
+ padding:10px 0;
+}
+
+section#side div#rec_subjects ul li{
+ padding:3px 0;
+}
+
+section#side div#podbor{
+ margin:20px 0;
+ text-align:center;
+}
+
+section#side div#podbor h3{
+ padding:0 0 15px 0;
+ margin:0 0 15px 0;
+ color:#3173a9;
+ border-bottom:1px solid #ddd;
+}
+
+section#side div#up{
+ text-align:right;
+}
+
+section#side div#up span{
+ display:inline-block;
+ padding:14px 15px 9px 15px;
+ border-radius:4px;
+ background:#ddd;
+ font-size:18px;
+ cursor:pointer;
+}
+
+section#side div#up span i{
+ color:#333;
+}
+
+section#side div#up span:hover{
+ background:#ccc;
+}
+
+section#tutors{
+ width:70%;
+ margin:0;
+}
+
+section#tutors span#show_more{
+ display:block;
+ width:180px;
+ text-align:center;
+ margin:20px auto;
+}
+
+section#tutors div.block{
+ padding:0;
+}
+
+section#tutors div#tutor{
+ padding:20px;
+ border-top:1px solid #ddd;
+}
+
+section#tutors div#tutor:first-child{
+ border:none;
+}
+
+section#tutors div#tside{
+ padding:0 20px;
+}
+
+section#tutors h4, section.profile h4{
+ margin:15px 0 5px 0;
+ font-size:18px;
+ color:#3173a9;
+}
+
+section#tutors a.expand{
+ display:block;
+ margin:10px 0 0 0;
+}
+
+section#tutors div#tutor_head img{
+ float:left;
+ margin-right:15px;
+ border-radius:5px;
+}
+
+section#tutors div#tutor_head a{
+ display:block;
+ font-size:28px;
+ line-height:28px;
+ margin-bottom:10px;
+}
+
+section#tutors div#tutor_head span{
+ display:block;
+}
+
+section#tutors div#tutor_edu p{
+ margin:5px 0 10px 0;
+}
+
+section#tutors div#tutor_price table{
+ width:100%;
+}
+
+section#tutors div#tutor_price table td{
+ padding:5px 0;
+ border-bottom:1px dotted #eee;
+}
+
+section#tutors div#tutor_price table td:last-child{
+ text-align:right;
+}
+
+div#rating{
+ overflow:auto;
+ margin:10px 0 20px 0;
+}
+
+div#rating span{
+ display:inline-block;
+ box-sizing:border-box;
+ float:left;
+ text-align:center;
+ font-size:14px;
+ border-right:1px solid #ccc;
+ width:50%;
+}
+
+div#rating span:last-child{
+ border:none;
+}
+
+div#rating span i{
+ display:block;
+ font-size:28px;
+ font-family:Calibri;
+ color:#3173a9;
+}
+
+section#tutors div#checks li{
+ padding:5px 0;
+}
+
+section#tutors div#checks i{
+ float:left;
+ color:#009e00;
+ height:30px;
+ margin-right:6px;
+}
+
+section#tutors span#tutor_select, section#side span#tutor_select{
+ width:100%;
+ text-align:center;
+ font-size:18px;
+}
+
+section#article{
+ width:70%;
+ margin:0;
+}
+
+section#article h2{
+ text-align:left;
+}
+
+table#order{
+ width:100%;
+}
+
+table#order th{
+ text-align:left;
+ padding:10px 5px;
+ font-size:18px;
+}
+
+table#order td{
+ padding:5px;
+ width:30%;
+}
+
+table#order td:last-child{
+ width:70%;
+}
+
+table#order input[type="text"]{
+ width:243px;
+}
+
+section.text p{
+ line-height:22px;
+}
+
+section.text ul{
+ margin:0 30px;
+}
+
+ul#side_menu li{
+ padding:5px 0;
+}
+
+ul#side_menu li.border{
+ border-bottom:1px solid #eee;
+}
+
+ul#side_menu li.border + li{
+ padding-top:10px;
+}
+
+section#article div#lessons div.grid{
+ margin:5px 5px 5px 0;
+}
+
+div#page_cont{
+ text-align:center;
+}
+
+ul.pagination{
+ display:inline-block;
+ margin:30px auto;
+}
+
+ul.pagination li{
+ display:inline;
+}
+
+ul.pagination li a{
+ padding:6px 14px;
+ border:1px solid #ddd;
+ border-right:none;
+}
+
+ul.pagination li:first-child a{
+ border-top-left-radius: 4px;
+ border-bottom-left-radius: 4px;
+}
+
+ul.pagination li:last-child a{
+ border-right:1px solid #ddd;
+ border-top-right-radius: 4px;
+ border-bottom-right-radius: 4px;
+}
+
+ul.pagination li a:hover{
+ text-decoration:none;
+ background:#eee;
+}
+
+ul.pagination li.active a{
+ background:#3173a9;
+ color:#fff;
+ cursor:default;
+ border-color:#3173a9;
+}
+
+ul.pagination li.disabled a{
+ background:#fff;
+ color:#aaa;
+ cursor:not-allowed;
+}
+
+div.empty_result{
+ background:#f5f5f5;
+ padding:50px 20px;
+ text-align:center;
+}
+
+div.empty_result i{
+ font-size:64px;
+ color:#3173a9;
+}
+
+div.empty_result p{
+ font-size:18px;
+}
+
+p.msg{
+ padding:15px;
+ border-radius:4px;
+}
+
+p.msg.success{
+ background:#c5e8b7;
+ border:1px solid #9cce89;
+}
+
+p.msg.error{
+ background:#f0e8b4;
+ border:1px solid #d1c67b;
+}
+
+div#cart{
+ margin:0 -20px;
+ padding:10px 25px;
+ border-top:1px solid #ddd;
+ border-bottom:1px solid #ddd;
+ background:#fafafa;
+}
+
+div#cart h3{
+ margin:0;
+ font-size:18px;
+}
+
+div#cart span.tutor{
+ position:relative;
+ float:left;
+ -moz-box-sizing:border-box;
+ -webkit-box-sizing:border-box;
+ box-sizing:border-box;
+ margin:10px 20px 10px 0;
+}
+
+div#cart span.tutor a{
+ display:inline-block;
+ width:140px;
+}

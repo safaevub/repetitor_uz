@@ -1,0 +1,14 @@
+<?php
+	//HEADER
+	define(SLOGAN, "Бесплатный сервис для поиска профессионалов");
+	define(PODBOR, "Свободный выбор");
+
+	//FOOTER
+	define(BECOME_TUTOR, "Стать специалистом");
+	define(ABOUT, "О компании");
+	define(CONTACTS, "контакт");
+	define(TERMS, "Условия эксплуатации");
+	define(SITEMAP, "Карта сайта");
+	define(WEEKDAYS, "БУДНИ");
+	define(WEEKEND, "WEEKEND");
+?>

@@ -1,0 +1,16 @@
+section#not_found{
+ height:450px;
+ overflow:hidden;
+ background:url('../../img/404.png') center 110px no-repeat;
+ background-size:auto 400px;
+}
+
+section#not_found h2{
+  margin:40px 0 10px 0;
+}
+
+section#not_found p{
+ text-align:center;
+ font-size:20px;
+ margin:0;
+}
